@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Smart Campus Platform ",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -13,5 +13,9 @@
     "MERN"
   ],
   "author": "Ronak Sood",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+  }
 }
